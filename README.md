@@ -7,3 +7,4 @@ withdraw only once a day.
 This app was made in Java using Android Studio. The database is mySql connecting threw http protocols using restful web services.
 
 (\Users\miguel.santos\Desktop\Cyb3rodds\login.jpg)
+<img src="C:\Users\miguel.santos\Desktop\Cyb3rodds\login.jpg" alt="alt text" title="Title" />
