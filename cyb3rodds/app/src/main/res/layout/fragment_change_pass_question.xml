@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context="enterprise.minura.cyb3rodds.settings.changePassFrag.ChangePassQuestionFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="center"
+            android:textColor="@android:color/black"
+
+            />
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+
+            />
+        <Button
+            android:id="@+id/delete"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Change Password"
+            android:background="@drawable/buttonrad"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

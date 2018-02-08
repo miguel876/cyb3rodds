@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context="enterprise.minura.cyb3rodds.settings.faqFrag.FAQFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fragfaq"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/teste1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="How do I bet?"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/teste2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Is it safe to bet here?"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+        android:id="@+id/teste3"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="How do I play the Dices?"
+        android:gravity="center"
+       />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/teste4"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="How do I play the Slot Machines?"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragfaqchange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

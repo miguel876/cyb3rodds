@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="enterprise.minura.cyb3rodds.games.DicesGameActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAlmostWhite3"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/cyberdices">
+
+        <ImageView
+            android:id="@+id/dice1"
+            android:layout_marginTop="20dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/diceone"/>
+
+        <ImageView
+            android:id="@+id/dice2"
+            android:layout_marginTop="20dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/dicefour"/>
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/betmenor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/btsoff"
+            android:layout_marginLeft="24dp"
+            />
+
+        <ImageView
+            android:id="@+id/result"
+            android:layout_width="70dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:id="@+id/betmaior"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/btboff"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <RelativeLayout
+    android:layout_width="230dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cyb3rslotmoney"/>
+    <TextView
+        android:id="@+id/cyber"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:paddingTop="45dp"
+        android:paddingRight="25dp"
+        android:text="sadsa"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"></Spinner>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="BET (C)"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

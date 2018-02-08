@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#050505</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDarkFade">#c30e0e0e</color>
+    <color name="colorButton">#2d65cc</color>
+    <color name="colorWhiteFade">#d8ffffff</color>
+    <color name="colorBlackJackGreen">#25a148</color>
+    <color name="colorAlmostWhite">#c9cac7</color>
+    <color name="colorAlmostWhite2">#e6e7e4</color>
+    <color name="colorAlmostWhite3">#abaaaa</color>
+    <color name="colorText">#2f543e</color>
+</resources>

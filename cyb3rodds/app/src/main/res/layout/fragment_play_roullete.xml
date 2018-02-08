@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context="enterprise.minura.cyb3rodds.settings.faqFrag.PlayRoullete">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Playing the dices is easy, first you decide to bet on big or small, then you will get the results depending on the total number of the two dices. If the dices outcome is smaller then 7 and you betted small, you've won, on the other side, if the outcome of the dices is bigger then 6 and you betted on big, you've won."
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine"
+        android:textSize="18dp"
+        />
+
+</FrameLayout>

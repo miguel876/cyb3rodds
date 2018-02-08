@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context="enterprise.minura.cyb3rodds.settings.changePassFrag.ChangePassFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <EditText
+        android:id="@+id/oldpass"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Old Password"
+        android:gravity="center"
+        android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/newpass"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="New Password"
+            android:gravity="center"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/newpassconfirm"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Confirm Password"
+            android:gravity="center"
+            android:inputType="textPassword"/>
+        <Button
+            android:id="@+id/change"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Change"
+            android:background="@drawable/buttonrad"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginBottom="20dp"
+            />
+</LinearLayout>
+</FrameLayout>

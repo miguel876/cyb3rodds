@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context="enterprise.minura.cyb3rodds.settings.faqFrag.PlaySlot">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Slot Machines is a very fun and also lucky game without requiring much thought.
+The player makes his bet, the machine spins and if you get a sequence you're in luck,
+you've won."
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine"
+        android:textSize="18dp"
+        />
+</FrameLayout>

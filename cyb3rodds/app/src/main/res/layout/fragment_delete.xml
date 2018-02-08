@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context="enterprise.minura.cyb3rodds.settings.deleteFrag.DeleteFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Are you sure you want to Delete this account?"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/del"
+                android:layout_marginLeft="15dp"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="delete"
+                android:background="@drawable/buttonrad"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginBottom="20dp"
+                />
+            <Button
+                android:id="@+id/cancel"
+                android:layout_marginLeft="30dp"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Cancel"
+                android:background="@drawable/buttonrad"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

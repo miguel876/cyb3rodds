@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="enterprise.minura.cyb3rodds.settings.faqFrag.HowBet">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Betting here is simple, all you have to do is choose the team that you think it will win and wait for the game results to come up.
+ Usually the odds are in favor of the team who is most likely to win, lets say team A has 1,05 odd and on the other hand
+team B has a 6,30 odd, it's most likely that team A will win
+the game because their the strongest team, the minor the odd
+the better the team is statistically, and less money you
+receive from betting and winning on the team.
+                                                            "
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine"
+        android:textSize="18dp"
+        />
+
+</FrameLayout>

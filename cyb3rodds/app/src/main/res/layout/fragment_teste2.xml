@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="enterprise.minura.cyb3rodds.settings.faqFrag.SafeBet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  In Cyb3r-Odds you don't have to be afraid of betting, making it easy and more confortable to bet on sport events.
+We assure your credit info is secured putting the best efforts on account security, quoting, betting has never been safer.
+
+                                                            "
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine"
+        android:textSize="18dp"
+        />
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/dicesix"
+        android:duration="50"/>
+    <item android:drawable="@drawable/dicefour"
+        android:duration="50"/>
+    <item android:drawable="@drawable/dicethree"
+        android:duration="50"/>
+    <item android:drawable="@drawable/dicetwo"
+        android:duration="50"/>
+    <item android:drawable="@drawable/diceone"
+        android:duration="50"/>
+    <item android:drawable="@drawable/dicesix"
+        android:duration="50"/>
+
+</animation-list>

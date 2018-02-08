@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="enterprise.minura.cyb3rodds">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".model.User"
+        android:allowBackup="true"
+        android:configChanges="orientation"
+        android:icon="@drawable/logolauncher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logolauncher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".IntroActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".games.SlotMachine"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        <activity
+            android:name=".games.BlackJack"
+            android:label="@string/title_activity_black_jack"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".games.DicesGameActivity"
+            android:label="@string/title_activity_dices_game"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

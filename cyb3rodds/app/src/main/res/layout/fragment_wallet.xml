@@ -1,0 +1,267 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@android:color/white"
+    tools:context="enterprise.minura.cyb3rodds.wallet.WalletFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="@android:color/black"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Account Balance (C)"
+        android:textColor="@android:color/white"
+        android:gravity="bottom"
+        android:layout_marginLeft="40dp"/>
+
+            <ImageView
+                android:id="@+id/btninfo"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/informacao"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="30dp"
+
+                />
+        </LinearLayout>
+    <TextView
+        android:id="@+id/cybermoney"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Wallet (€)"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+
+            />
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:background="@color/colorAlmostWhite2"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Recharge (C)"
+                    />
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Amount (€)"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAlmostWhite"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/recharge10"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="10.000C"
+                        />
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="10€"
+                        android:textColor="@android:color/black"
+                        />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAlmostWhite2"/>
+                <LinearLayout
+                    android:id="@+id/recharge20"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="20.000C"
+                        />
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="20€"
+                        android:textColor="@android:color/black"
+                        />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAlmostWhite2"/>
+                <LinearLayout
+                    android:id="@+id/recharge30"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="30.000C"
+                        />
+                    <TextView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="30€"
+                        android:textColor="@android:color/black"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:background="@color/colorAlmostWhite2"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Withdraw"
+                    />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAlmostWhite"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <Spinner
+                        android:id="@+id/sptrade"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent">
+
+                    </Spinner>
+
+                    <Button
+                        android:id="@+id/trade"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="Trade"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/buttonrad"
+                        android:textSize="12dp"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

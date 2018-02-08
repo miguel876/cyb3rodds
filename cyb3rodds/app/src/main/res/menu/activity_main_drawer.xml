@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Casino">
+            <menu>
+                <item
+                    android:id="@+id/nav_slot"
+                    android:icon="@drawable/slot"
+                    android:title="Slot Machine" />
+                <item
+                    android:id="@+id/nav_guess"
+                    android:icon="@drawable/dice"
+                    android:title="Dices" />
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/wallet"
+            android:title="Wallet" />
+    </group>
+
+
+
+</menu>

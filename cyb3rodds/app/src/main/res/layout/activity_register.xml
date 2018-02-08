@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="enterprise.minura.cyb3rodds.RegisterActivity"
+    android:background="@drawable/background">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/layoutback"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:textColor="@android:color/white"
+            android:textSize="38dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Register"
+            android:id="@+id/textView2" />
+        <View
+
+            android:layout_width="290dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+
+            />
+                <EditText
+                    android:id="@+id/first"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="First Name"
+                    android:backgroundTint="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-smallcaps"
+
+                    />
+                <EditText
+                    android:id="@+id/last"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:hint="Last Name"
+                    android:backgroundTint="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-smallcaps"
+
+                    />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="E-Mail"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+
+            />
+        <EditText
+            android:id="@+id/reemail"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Repeat E-Mail"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:inputType="textPassword"
+
+            />
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Repeat Password"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:inputType="textPassword"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinquestion"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginLeft="5dp"
+            ></Spinner>
+
+        <EditText
+            android:id="@+id/Answer"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Answer"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+
+            />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:text="Sex"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-smallcaps"
+
+                    />
+                <View
+
+                    android:layout_width="290dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white"/>
+
+        <Spinner
+            android:id="@+id/spinsex"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginLeft="5dp"
+
+            ></Spinner>
+                <Spinner
+                    android:id="@+id/spincountry"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginLeft="5dp"
+                    ></Spinner>
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Register"
+                    android:onClick="Register"
+                    android:background="@drawable/buttonrad"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/button" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cyb3rOdds powered by MiNuRa"
+            android:gravity="center"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</RelativeLayout>

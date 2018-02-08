@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="enterprise.minura.cyb3rodds.LoginActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+       android:paddingTop="20dp"
+
+        />
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layoutback"
+        >
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:layout_gravity="start"
+    android:textColor="@android:color/white"
+    android:textSize="38dp"
+    android:layout_marginLeft="10dp"
+    android:fontFamily="sans-serif-smallcaps"
+    android:text="Login"
+    />
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/username"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:gravity="start"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-smallcaps"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:gravity="start"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="Login"
+            android:onClick="Login"
+            android:background="@drawable/buttonrad"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:text="Don't have an Account? Register Here"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="Register"
+            android:onClick="Register"
+            android:background="@drawable/buttonrad"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="18dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cyb3rOdds powered by MiNuRa"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
